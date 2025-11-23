@@ -85,3 +85,9 @@ pyside6-uic*        # generated uic wrappers or tool outputs
 # Misc
 coverage/
 .cache/
+
+# nuitka build files
+*.build/
+*.dist/
+*.nuitka-*
+*nuitka*
