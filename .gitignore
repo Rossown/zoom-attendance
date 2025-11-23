@@ -1,0 +1,87 @@
+# Python generic
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# C extensions
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+*.egg
+*.whl
+
+# Installer / build logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type checking / caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.db-journal
+
+# Environment files / secrets
+.env
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints
+
+# Documentation
+docs/_build/
+
+# PySide6 / Qt specific
+# QML cache and compiled resources
+qmlcache/
+*.qmlc
+*.rcc
+*.qrc.py
+ui_*.py             # ignore generated UI python files if you generate them at build time
+pyside6-uic*        # generated uic wrappers or tool outputs
+
+# Misc
+coverage/
+.cache/
